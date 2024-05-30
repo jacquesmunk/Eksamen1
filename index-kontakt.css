@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    background-color: #C8CFE8;
+    text-align: center;
+    font-size: 30px;
+    color: #202C59;
+  }
+  .container0 {
+    width: auto;
+    margin: 0 auto;
+  }
+  .flex-box01 {
+    background-color: #202C59;
+    padding: 5px;
+    flex: 50%;
+    width: auto;
+  }
+  
+  
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .flex-box11 {
+    background-color: #202C59;
+    padding: 10px;
+    flex: 50%;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .flex-box12 {
+    background-color: #202C59;
+    padding: 10px;
+    flex: 50%;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .flex-box13 {
+    background-color: #202C59;
+    padding: 10px;
+    flex: 50%;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 800px) {
+    .container1 {
+      flex-direction: column;
+    }
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #202C59;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+  }
+  a:hover {
+    color: #C8CFE8;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+  }
+  h1 {
+    font-family:'Franklin Gothic Medium';
+  }
+  p {
+    font-family: 'Arial';
+    font-size: 15px;
+    background-color: #C8CFE8;
+    color: #202C59;
+    text-align: center;
+  }
+
+  .container2 {
+    width: auto;
+    margin: 0 auto;
+  }
+  .box1 {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Arial';
+    border-radius: 5px;
+  }
+  .box2 {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Arial';
+    border-radius: 5px;
+  }
+  .box3 {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Arial';
+    border-radius: 5px;
+  }
+  .box4 {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    color: #202C59;
+    font-family: 'Arial';
+    border-radius: 5px;
+  }
